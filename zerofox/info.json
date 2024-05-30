@@ -20,7 +20,7 @@
         "required": true,
         "editable": true,
         "visible": true,
-        "value": "https://api.zerofox.com",
+        "value": "https://api.zerofox.com/1.0",
         "tooltip": "Specify the URL of the ZeroFox server to connect and perform automated operations."
       },
       {
