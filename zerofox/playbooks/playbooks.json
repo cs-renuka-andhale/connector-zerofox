@@ -39,7 +39,7 @@
                 "params": {
                   "ip": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "get_ip_lookup",
                 "operationTitle": "Get IP Lookup"
@@ -109,7 +109,7 @@
                 "params": {
                   "domain": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "get_domain_lookup",
                 "operationTitle": "Get Domain Lookup"
@@ -179,7 +179,7 @@
                 "params": {
                   "email": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "get_email_lookup",
                 "operationTitle": "Get Email Lookup"
@@ -249,7 +249,7 @@
                 "params": {
                   "hash": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "get_filehash_lookup",
                 "operationTitle": "Get FileHash Lookup"
@@ -319,7 +319,7 @@
                 "params": {
                   "created_after": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "get_exploits_lookup",
                 "operationTitle": "Get Exploits Lookup"
@@ -405,7 +405,7 @@
                   "offset": "",
                   "additional_fields": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "get_alerts_list",
                 "operationTitle": "Get Alerts List"
@@ -475,7 +475,7 @@
                 "params": {
                   "alert_id": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "get_alert_details",
                 "operationTitle": "Get Alert Details"
@@ -546,7 +546,7 @@
                   "alert_id": "",
                   "username": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "assign_alert_to_user",
                 "operationTitle": "Assign Alert to User"
@@ -616,7 +616,7 @@
                 "params": {
                   "alert_id": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "open_alert",
                 "operationTitle": "Open Alert"
@@ -686,7 +686,7 @@
                 "params": {
                   "alert_id": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "close_alert",
                 "operationTitle": "Close Alert"
@@ -756,7 +756,7 @@
                 "params": {
                   "alert_id": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "alert_request_takedown",
                 "operationTitle": "Request Alert Takedown"
@@ -826,7 +826,7 @@
                 "params": {
                   "alert_id": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "alert_cancel_takedown",
                 "operationTitle": "Cancel Alert Takedown"
@@ -898,7 +898,7 @@
                   "action": "",
                   "tags_list": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "modify_alert_tags",
                 "operationTitle": "Modify Alert Tags"
@@ -969,7 +969,7 @@
                   "alert_id": "",
                   "notes": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "modify_alert_notes",
                 "operationTitle": "Modify Alert Notes"
@@ -1043,7 +1043,7 @@
                   "tags": "",
                   "organization": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "create_entity",
                 "operationTitle": "Create Entity"
@@ -1120,7 +1120,7 @@
                   "type": "",
                   "page": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "get_entity_list",
                 "operationTitle": "Get Entity List"
@@ -1188,7 +1188,7 @@
                 "name": "ZeroFox",
                 "config": "",
                 "params": [],
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "get_entity_types",
                 "operationTitle": "Get Entity Types List"
@@ -1256,7 +1256,7 @@
                 "name": "ZeroFox",
                 "config": "",
                 "params": [],
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "get_policy_types",
                 "operationTitle": "Get Policy Types List"
@@ -1330,7 +1330,7 @@
                   "violation": "",
                   "notes": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "zerofox",
                 "operation": "submit_threat",
                 "operationTitle": "Submit Threat"
@@ -1367,7 +1367,7 @@
           ]
         }
       ],
-      "name": "Sample - ZeroFox - 1.0.0",
+      "name": "Sample - ZeroFox - 1.0.1",
       "description": "",
       "visible": true,
       "recordTags": [

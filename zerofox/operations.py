@@ -1,7 +1,7 @@
 """
 Copyright start
 MIT License
-Copyright (c) 2023 Fortinet Inc
+Copyright (c) 2024 Fortinet Inc
 Copyright end
 """
 
@@ -25,7 +25,7 @@ class ZeroFox(object):
 
     def make_rest_call(self, url, method='GET', data=None, params=None, cti=None):
         try:
-            url = self.url + url
+            url = self.url + '/1.0' + url
             headers = {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
@@ -62,7 +62,7 @@ class ZeroFox(object):
 
 
 def get_authorization_token(url, username, password):
-    endpoint = url + '/api-token-auth/'
+    endpoint = url + '/1.0/api-token-auth/'
     data = {
         "username": username,
         "password": password
@@ -72,7 +72,7 @@ def get_authorization_token(url, username, password):
 
 
 def get_cti_authorization_token(url, username, password):
-    endpoint = url + '/auth/token/'
+    endpoint = url + '/1.0/auth/token/'
     data = {
         "username": username,
         "password": password

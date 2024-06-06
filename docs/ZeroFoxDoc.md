@@ -5,12 +5,16 @@ ZeroFox Platform combines advanced AI-driven analysis to detect complex threats 
 
 ### Version information
 
-Connector Version: 1.0.0
+Connector Version: 1.0.1
 
 
 Authored By: Fortinet
 
 Certified: No
+
+### Release Notes for version 1.0.1
+
+Resolved issue with health checks and actions after adding version 1.0 to API endpoints.
 
 ## Installing the connector
 
@@ -310,7 +314,7 @@ None.
 
 ## Included playbooks
 
-The `Sample - zerofox - 1.0.0` playbook collection comes bundled with the ZeroFox connector. These playbooks contain steps using which you can perform all supported actions. You can see bundled playbooks in the **Automation** > **Playbooks** section in FortiSOAR&trade; after importing the ZeroFox connector.
+The `Sample - zerofox - 1.0.1` playbook collection comes bundled with the ZeroFox connector. These playbooks contain steps using which you can perform all supported actions. You can see bundled playbooks in the **Automation** > **Playbooks** section in FortiSOAR&trade; after importing the ZeroFox connector.
 
 - Assign Alert to User
 - Cancel Alert Takedown

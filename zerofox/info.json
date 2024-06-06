@@ -6,7 +6,7 @@
   "publisher": "Fortinet",
   "cs_approved": false,
   "cs_compatible": true,
-  "help_online": "https://github.com/fortinet-fortisoar/connector-zerofox/blob/release/1.0.0/docs/ZeroFoxDoc.md",
+  "help_online": "https://github.com/fortinet-fortisoar/connector-zerofox/blob/release/1.0.1/docs/ZeroFoxDoc.md",
   "icon_small_name": "small.png",
   "icon_large_name": "large.png",
   "category": "Threat Intelligence",
@@ -20,7 +20,7 @@
         "required": true,
         "editable": true,
         "visible": true,
-        "value": "https://api.zerofox.com/1.0",
+        "value": "https://api.zerofox.com",
         "tooltip": "Specify the URL of the ZeroFox server to connect and perform automated operations."
       },
       {
