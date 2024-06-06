@@ -62,13 +62,13 @@ class ZeroFox(object):
 
 
 def get_authorization_token(url, username, password):
-    endpoint = url + '/1.0/api-token-auth/'
+    endpoint = url + '/api-token-auth/'
     data = {
         "username": username,
         "password": password
     }
     response = requests.request(method='POST', url=endpoint, data=data)
-    return response.get("token", "")
+    return response.json().get("token", "")
 
 
 def get_cti_authorization_token(url, username, password):
